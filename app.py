@@ -19,8 +19,6 @@ model = BedrockModel(
     region_name=aws_region,
     temperature=0.3,
     max_tokens=100,
-   # guardrail_id="82slmoce5327",
-   # guardrail_version="1"
 )
 model = OpenAIModel(
     #client_args={
